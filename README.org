@@ -1,0 +1,4 @@
+Our benevolent dictator, Rich Hickey, [[http://clojure.github.com/clojure/clojure.core-api.html#clojure.core/add-classpath][deprecated]] add-classpath; let's
+add it back.
+
+(See [[https://github.com/cemerick/pomegranate][pomegranate]], though, which also adds dependencies.)
