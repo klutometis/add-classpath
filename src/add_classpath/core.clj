@@ -10,9 +10,6 @@
                                   (into-array [URL]))]
   (.setAccessible add-url true)
   (defn add-classpath [file]
-    (let [file (new File file)]
-      (if (.exists file)
-        (.invoke add-url
-                 (ClassLoader/getSystemClassLoader)
-                 (into-array [(.toURL (.toURI file))]))
-        (throw (new FileNotFoundException (.getPath file)))))))
+    (.invoke add-url
+             (ClassLoader/getSystemClassLoader)
+             (into-array [(.toURL (.toURI (new File file)))]))))
