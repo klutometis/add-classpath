@@ -2,3 +2,6 @@ Our benevolent dictator, Rich Hickey, [[http://clojure.github.com/clojure/clojur
 add it back.
 
 (See [[https://github.com/cemerick/pomegranate][pomegranate]], though, which also adds dependencies.)
+
+This implementation of =add-classpath= was inspired by Rich Hickey's
+[[https://github.com/richhickey/clojure-contrib/blob/a1c66df5287776b4397cf3929a5f498fbb34ea32/src/main/clojure/clojure/contrib/java_utils.clj#L208][wall-hack-method]] and Jimmy Life's [[http://jimlife.wordpress.com/2007/12/19/java-adding-new-classpath-at-runtime/][URLClassLoader hack]].
