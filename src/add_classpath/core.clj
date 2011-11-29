@@ -3,7 +3,7 @@
                      URL)
            (java.io File
                     FileNotFoundException))
-  (:refer-clojure :exclude (add-classpath)))
+  (:refer-clojure :exclude [add-classpath]))
 
 (let [add-url (.getDeclaredMethod URLClassLoader
                                   "addURL"
