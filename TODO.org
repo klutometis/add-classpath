@@ -1,1 +1,5 @@
-* TODO Implement globs
+* DONE Implement globs.
+  CLOSED: [2011-12-13 Tue 10:55]
+* DONE Multiple paths
+  CLOSED: [2011-12-13 Tue 11:05]
+* TODO Push from home, where we implemented globs.
